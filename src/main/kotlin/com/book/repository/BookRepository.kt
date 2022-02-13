@@ -1,7 +1,6 @@
 package com.book.repository
 
 import com.jooq.db.tables.Book.Companion.BOOK
-//import jooq.db.tables.references.BOOK
 import org.jooq.DSLContext
 import org.jooq.Record
 import org.springframework.stereotype.Repository
