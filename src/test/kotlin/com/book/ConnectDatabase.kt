@@ -1,7 +1,6 @@
 package com.book
 
-
-import com.jooq.db.tables.Book.Companion.BOOK
+import com.jooq.db.tables.references.BOOK
 import org.jooq.Record
 import org.jooq.Result
 import org.jooq.SQLDialect
