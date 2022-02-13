@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS book;
+
+CREATE TABLE book (
+  id INT NOT NULL AUTO_INCREMENT,
+  title VARCHAR(150) NOT NULL,
+  author VARCHAR(150) NOT NULL,
+
+  CONSTRAINT pk_t_book PRIMARY KEY (id)
+);
+
+INSERT INTO book VALUES (DEFAULT, '1984', 'Tanaka');
+INSERT INTO book VALUES (DEFAULT, 'Animal Farm', 'Ito');
+INSERT INTO book VALUES (DEFAULT, 'Animal', 'Sato');
+INSERT INTO book VALUES (DEFAULT, 'Farm', 'Ito');
+INSERT INTO book VALUES (DEFAULT, '1984', 'Yamada');
